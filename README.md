@@ -8,7 +8,7 @@
   * Created Tables
 ## Features 
 Our team members have their own features, as detailed below:
-- Feature 1 (Full Name): Title of the feature.
+- Feature 1 (Yang Pengpeng): Login and Register Information.
 - Feature 2 (Ni Xiong): Reservation: a form for the customer to make a reservations online.
 - Feature 3 (Jiawei Li): Customer Feedback: collecting information from customers.
 - Feature 4 (Zou Qiaoqiao): Administrator management menu.
