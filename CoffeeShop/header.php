@@ -188,6 +188,66 @@
     font-size: 18px;
     display: inline-block;
 }*/
+        .logintitle {
+            color: #e8ccb0;
+
+        }
+
+        .loginlable {
+            display: block;
+            margin-bottom: 8px;
+            color: #e8ccb0;
+            font-weight: 700px;
+            text-align: left;
+        }
+
+        .logininput {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        .loginbutton {
+            background-color: #e8ccb0;
+            color: #003e40;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 40%;
+            font-weight: 700px;
+        }
+
+        .registerbutton {
+            background-color: #e8ccb0;
+            color: #003e40;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+            font-weight: 700px;
+        }
+
+        .registerinput {
+            width: 50%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+
+        .registrationbutton {
+            background-color: #e8ccb0;
+            color: #003e40;
+            padding: 10px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 50%;
+            font-weight: 700px;
+        }
+
 
         .linkMethod {
             background-color: #a25c2e;
@@ -337,12 +397,12 @@
             <a href="index.html"><img src="images/2-e1694169123116.png" /></a>
         </div>
         <nav class="nav">
-            <a href="index.html" class="link">Home</a>
+            <a href="HomePage.php" class="link">Home</a>
             <a href="menu_QiaoqiaoZou.html" class="link">Menu</a>
             <a href="about_XiongNi.html" class="link">About Us</a>
             <a href="contactUs_JiaweiLi.html" class="link">Contact</a>
         </nav>
-        <button class="button"><a href="#" class="link">Log In</a></button>
+        <button class="button"><a href="feature1_loginPage.php" class="link">Log In</a></button>
     </header>
 
     <section>
