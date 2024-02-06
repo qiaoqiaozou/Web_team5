@@ -8,7 +8,7 @@ $password = "password";
 $dbname = "crudAPP";
 
 
-/*
+/* 最后上传shell所需个人数据库
 $servername = "localhost";
 $username = "pengpeng23000";
 $password = "rTaPFrQ6";
