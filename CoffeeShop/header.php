@@ -198,8 +198,9 @@
             margin-bottom: 8px;
             color: #e8ccb0;
             font-weight: 700px;
-            text-align: left;
+            text-align: center;
         }
+        
 
         .logininput {
             width: 100%;
