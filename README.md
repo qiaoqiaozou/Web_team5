@@ -22,7 +22,8 @@ Collecting E-mails, phone numbers, addresses, questions,comments or what ever we
 Include more detailed information about Feature 1 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) 
 ## Database Tables
 This is a list of our database tables that are part of your project(Need the ER Diagram of the database).
-* Table 1 (Created By  ): Table Name.
+* Table 1.1 (Created By YangPengpeng ): Table Name. login_info
+* Table 1.2 (Created By Yangpengpeng ): Table Name. register_info
 * Table 2 (Created By  ): Table Name.
 * Table 3 (Created By  ): Table Name.
 * Table 4 (Created By  ): Table Name.
