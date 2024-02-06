@@ -23,7 +23,7 @@ if (isset($_POST['register'])) {
     /*
     if ($password !== $confirmPassword) {
         echo "Error: Passwords do not match";
-        break;
+        continue;
     }
     */
     // database
