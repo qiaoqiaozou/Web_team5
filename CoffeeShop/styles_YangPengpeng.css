@@ -38,7 +38,7 @@ body {
 }
 
 .nav a {
-    margin: 0 3em;
+    margin: 0 2em;
 }
 
 .nav a,
@@ -59,11 +59,9 @@ body {
 .button2 a {
     color: #003e40;
 }
-
-.button {
+.button{
     margin: 0 60px 0 40px;
 }
-
 .button {
     background-color: #003e40;
     padding: 10px 15px;
@@ -244,71 +242,70 @@ footer {
     }
 }*/
 
-@media (max-width: 600px) {
-    footer {
+@media  (max-width: 600px){
+    footer{
         height: 500px;
         padding-top: 10px;
 
     }
-
     /*.nav {
         flex-direction: column;
         align-items: center;
         text-align: center;
       }*/
-
+    
     .part1 {
-        flex-direction: column;
-        height: 300px;
-        padding: 6px;
-
-    }
-
-
-    .head {
-        width: 100%;
-        padding: 10px;
-        line-height: normal;
-        text-align: center;
-    }
-
-    .nav {
-        flex-direction: column;
-        align-items: center;
-        margin: 0;
-    }
-
-    nav a {
-        margin: 5px 0;
-    }
-
-    .button {
-        margin-top: 0;
-    }
+       flex-direction: column; 
+       height: 300px; 
+       padding: 6px; 
+       
+   }
 
 
-    .linkMethod2 {
+   .head {
+       width: 100%; 
+       padding: 10px; 
+       line-height: normal; 
+       text-align: center; 
+   }
 
-        height: auto;
-        width: auto;
-        margin-right: 5px;
-        position: relative;
-    }
+   .nav {
+       flex-direction: column; 
+       align-items: center; 
+       margin:0; 
+   }
+
+   nav a {
+       margin: 5px 0;
+   }
+
+   .button {
+       margin-top:0; 
+   }
+
+
+.linkMethod2 {
+
+    height: auto;
+    width: auto;
+    margin-right: 5px;
+    position: relative;
+}
 }
 
-@media (min-width: 601px)and (max-width: 1024px) {
-
+@media  (min-width: 601px)and (max-width: 1024px){
     /*footer{
          height: 500px;
          padding-top: 10px;
  
      }*/
-    /*.nav {
+     /*.nav {
          flex-direction: column;
          align-items: center;
          text-align: center;
        }*/
-    .part1 {
-        height: 155px;
-    }
-}
+     .part1 {
+         height: 155px;
+     }
+ }
+ 
