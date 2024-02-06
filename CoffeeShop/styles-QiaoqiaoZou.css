@@ -31,12 +31,12 @@ body {
     align-items: center;
     font-weight: 700;
     flex: 2;
-    margin: 0 3em;
-    font-size: 18px;
+    margin: 0 2em;
+    font-size: 17px;
 }
 
 .nav a {
-    margin: 0 3em;
+    margin: 0 2em;
 }
 
 .nav a,
