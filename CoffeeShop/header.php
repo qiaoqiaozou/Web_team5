@@ -402,7 +402,7 @@
             <a href="about_XiongNi.html" class="link">About Us</a>
             <a href="contactUs_JiaweiLi.html" class="link">Contact</a>
         </nav>
-        <button class="button"><a href="loginPage.php" class="link">Log In</a></button>
+        <button class="button"><a href="feature1_loginPage.php" class="link">Log In</a></button>
     </header>
 
     <section>

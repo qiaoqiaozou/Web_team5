@@ -18,7 +18,7 @@ include 'header.php'; ?>
 
             <h2 class="logintitle">New Customers</h2>
             <label class="loginlable" for="password">Are You New Here</label>
-            <button class="loginbutton" type="submit"><a href="registerPage.php" class="link">Register</a></button>
+            <button class="loginbutton" type="submit"><a href="feature1_registerPage.php" class="link">Register</a></button>
         </div>
     
 
