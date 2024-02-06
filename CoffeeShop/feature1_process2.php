@@ -19,6 +19,13 @@ if (isset($_POST['register'])) {
     $password = $_POST['password'];
     $phone = $_POST['phone'];
 
+    // if I have that confirmed password
+    /*
+    if ($password !== $confirmPassword) {
+        echo "Error: Passwords do not match";
+        break;
+    }
+    */
     // database
     include 'db.php'; 
 
