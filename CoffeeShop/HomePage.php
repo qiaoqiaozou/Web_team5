@@ -1,7 +1,7 @@
 <?php
 $title = "Home Page";
 $md="Please use appropriate meta Description";
-include 'header.php'; ?>
+include 'header1.php'; ?>
 
 
 <div class="word">
