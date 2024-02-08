@@ -13,3 +13,7 @@ include 'header.php'; ?>
         <div class="coffee"></div>
 
 <?php include 'footer.php'; ?>
+
+<!--
+提交project之前会改成index.php
+-->
