@@ -2,7 +2,7 @@
 $title = "Home Page";
 $md="Please use appropriate meta Description";
 $css="styles_YangPengpeng.css";
-include 'header1.php'; ?>
+include 'header.php'; ?>
 
 
 <div class="word">

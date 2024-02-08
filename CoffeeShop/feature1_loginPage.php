@@ -2,7 +2,7 @@
 $title = "Log_In";
 $md="Please use appropriate meta Description";
 $css="styles_YangPengpeng.css";
-include 'header1.php'; ?>
+include 'header.php'; ?>
 
         <div class="word">
             <form method = "post" action = "feature1_process1.php" class="loginform">

@@ -2,7 +2,7 @@
 $title = "Register";
 $md="Please use appropriate meta Description";
 $css="styles_YangPengpeng.css";
-include 'header1.php'; ?>
+include 'header.php'; ?>
 
 
 <div style="height: auto;" class="word">
