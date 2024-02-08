@@ -20,15 +20,15 @@
 <body>
     <header class="part1">
         <div class="head">
-            <a href="index.html"><img src="images/2-e1694169123116.png" /></a>
+            <a href="HomePage.php"><img src="images/2-e1694169123116.png" /></a>
         </div>
         <nav class="nav">
-            <a href="index.html" class="link">Home</a>
+            <a href="HomePage.php" class="link">Home</a>
             <a href="menu_QiaoqiaoZou.html" class="link">Menu</a>
             <a href="about_XiongNi.html" class="link">About Us</a>
             <a href="contactUs_JiaweiLi.html" class="link">Contact</a>
         </nav>
-        <button class="button"><a href="#" class="link">Log In</a></button>
+        <button class="button"><a href="feature1_loginPage.php" class="link">Log In</a></button>
     </header>
 
     <section>
