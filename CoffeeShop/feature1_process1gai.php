@@ -1,15 +1,11 @@
-
-
 <?php
+//session_start();
 $title = "Log_In";
 $md="Please use appropriate meta Description";
+$css="styles_YangPengpeng.css";
 include 'header.php'; ?>
-
-
 <?php
-// 
 session_start();
-
 // if my customer already registered
 if(isset($_SESSION['user_id'])) {
     header("Location: HomePage.php");
