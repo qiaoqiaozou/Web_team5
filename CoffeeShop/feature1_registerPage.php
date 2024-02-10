@@ -19,10 +19,10 @@ include 'header.php'; ?>
             <label class="loginlable" for="password">Password</label>
             <input class="registerinput" type="password" id="password" name="password" required>
 
-            <!--
+            
             <label class="loginlable" for="confirm-password">Confirm Password</label>
             <input class="registerinput" type="password" id="confirm-password" name="confirm-password" required>
-                -->
+        
 
             <label class="loginlable" for="phone">Phone Number</label>
             <input class="registerinput" type="tel" id="phone" name="phone">

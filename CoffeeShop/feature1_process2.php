@@ -17,19 +17,29 @@ if (isset($_POST['register'])) {
     $fullname = $_POST['fullname'];
     $email = $_POST['email'];
     $password = $_POST['password'];
+    $confirmPassword = $_POST['confirm-password'];
     $phone = $_POST['phone'];
 
     // if I have that confirmed password
-    /*
+    
     if ($password !== $confirmPassword) {
         echo "Error: Passwords do not match";
-        continue;
+        exit();
     }
-    */
+    
     // database
     include 'db.php'; 
 
-    // SQL 
+    // Check if email already exists in database
+    $checkEmailQuery = "SELECT * FROM register_info WHERE email = '$email'";
+    $result = $conn->query($checkEmailQuery);
+    
+    if ($result->num_rows > 0) {
+        echo "Error: Email already exists. Please use a different email address.";
+        exit();
+    }
+
+    // SQL create new data for new customer 
     $sql = "INSERT INTO register_info (fullname, email, password, phone) VALUES ('$fullname', '$email', '$password', '$phone')";
 
     // 
