@@ -2,10 +2,10 @@
  This project was mainly for a cafe to design their web page.
  This is a simple description of the feature(s) that we plan to implement for our project.
   ## Table of Contents
-  * Features
-  * Database Tables
-  * Created Forms
-  * Created Tables
+  * Features(#features)
+  * Database Tables(#database-tables)
+  * Created Forms(#created-forms)
+  * Created Tables(#created-tables)
 ## Features 
 Our team members have their own features, as detailed below:
 - Feature 1 (Yang Pengpeng): Login and Register Information.
