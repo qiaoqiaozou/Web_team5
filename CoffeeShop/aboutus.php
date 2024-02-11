@@ -3,7 +3,7 @@ $title = "Coffee shop-about us";
 $css = 'styles_XiongNi.css';
 include 'header.php'; ?>
 
-<div class="container">
+<div class="container middle-container">
         <div class="row">
             <div class="col-md-5">
                 <img class="img-fluid" src="images/coffee-shop.jpg"/>
@@ -21,6 +21,7 @@ include 'header.php'; ?>
                     quick bite or a leisurely meal.
                     Whether you're looking for a place to work, catch up with friends, or simply relax, Brew's Coffee is
                     the perfect spot to do so.</p>
+                    <a href="feature2_reservForm.php" class="btn btn-primary">Make a reservation</a>
             </div><!--columun of right-->
         </div> <!--class row-->
     </div><!--container-->
