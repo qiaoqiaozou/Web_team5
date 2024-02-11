@@ -15,7 +15,7 @@ Our team members have their own features, as detailed below:
 ### Feature 1
 Include more detailed information about Feature 1 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) 
 ### Feature 2
-Collecting name, email, phone number, number of people, date&time, special requests. Provide links to related code files (github) & link to the feature (shell.hamk.fi) 
+Collecting name, email, number of people, date, special requests. Provide links to related code files (github) & link to the feature (shell.hamk.fi) 
 ### Feature 3
 Collecting E-mails, phone numbers, addresses, questions,comments or what ever we want. Provide links to related code files (github) & link to the feature (shell.hamk.fi) 
 ### Feature 4
@@ -24,7 +24,7 @@ Include more detailed information about Feature 1 here. Provide links to related
 This is a list of our database tables that are part of your project(Need the ER Diagram of the database).
 * Table 1.1 (Created By YangPengpeng ): Table Name. login_info
 * Table 1.2 (Created By Yangpengpeng ): Table Name. register_info
-* Table 2 (Created By  ): Table Name.
+* Table 2 (Created By Xiong Ni ): Table Name.feature2_reservform
 * Table 3 (Created By  ): Table Name.
 * Table 4 (Created By  ): Table Name.
 ## Created Forms
