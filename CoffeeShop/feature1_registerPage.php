@@ -6,7 +6,7 @@ include 'header.php'; ?>
 
 
 <div style="height: auto;" class="word">
-<form method = "post" action = "feature1_process2.php">
+<form method = "post" action = "feature1_process2.php" id="registrationForm">
 
             <h2 class="logintitle">Registration Form</h2>
 
@@ -14,14 +14,14 @@ include 'header.php'; ?>
             <input class="registerinput" type="text" id="fullname" name="fullname" required>
 
             <label class="loginlable" for="email">Email Address</label>
-            <input class="registerinput" type="email" id="email" name="email" required>
+            <input class="registerinput" type="email" id="email" name="email" required >
 
             <label class="loginlable" for="password">Password</label>
-            <input class="registerinput" type="password" id="password" name="password" required>
+            <input class="registerinput" type="password" id="password" name="password" required >
 
             
             <label class="loginlable" for="confirm-password">Confirm Password</label>
-            <input class="registerinput" type="password" id="confirm-password" name="confirm-password" required>
+            <input class="registerinput" type="password" id="confirm_password" name="confirm-password" required >
         
 
             <label class="loginlable" for="phone">Phone Number</label>
@@ -34,8 +34,25 @@ include 'header.php'; ?>
 </form>
         </div>
 
-        
-    
 
+<script>
+    function validateForm() {
+        var email = document.getElementById("email").value;
+
+        // validate email
+        if (!isValidEmail(email)) {
+            alert("Please enter a valid email address.");
+            return false;
+        }
+
+        return true;
+    }
+
+    function isValidEmail(email) {
+
+        var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailRegex.test(email);
+    }
+</script>
 
 <?php include 'footer.php'; ?>
