@@ -9,7 +9,7 @@
 ## Features 
 Our team members have their own features, as detailed below:
 - [ ] Feature 1 (Yang Pengpeng): Login and Register Information.
-- [ ] Feature 2 (Ni Xiong): Reservation: a form for the customer to make a reservations online.
+- [ ] Feature 2 (Ni Xiong): Customers can make a reservation online: a form for the customer to make a   reservations online.
 - [ ] Feature 3 (Jiawei Li): Customer Feedback: collecting information from customers.
 - [ ] Feature 4 (Zou Qiaoqiao): Administrator management menu.
 ### Feature 1
@@ -30,11 +30,11 @@ This is a list of our database tables that are part of your project(Need the ER 
 ## Created Forms
 This is a list and describtions about forms that have been created as part of our project. Include details about the purpose of each form and any validation logic.
 * Form 1 (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
-* Form 2 (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
+* Form 2 (Created By Xiong Ni): reservation: Link to the related code file ([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/feature2_reservForm.php)) | Link to the form (shell.hamk.fi). | Validations Applied
 ## Created Tables
 This is the table list that we have created in the project work.
 * Table 1 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
-* Table 2 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
+* Table 2 (Created By Xiong Ni): feature2_reservform | Link to the related code file ([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/feature2_read.php)) | Link to the table (shell.hamk.fi).
 * Table 3 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
 
 
