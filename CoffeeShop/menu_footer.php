@@ -46,7 +46,8 @@
 
             var coffeeLink = document.querySelector(".m1");
             var dessertLink = document.querySelector(".m2");
-
+            var breadLink = document.querySelector(".m3");
+            var othersLink = document.querySelector(".m4");
 
             coffeeLink.addEventListener("click", function (event) {
                 event.preventDefault();
@@ -62,6 +63,24 @@
 
                 var dessertSection = document.getElementById("dessert");
                 dessertSection.scrollIntoView({ behavior: "smooth" });
+            });
+
+            breadLink.addEventListener("click", function (event) {
+                event.preventDefault();
+
+                var breadSection = document.getElementById("bread");
+
+
+                breadSection.scrollIntoView({ behavior: "smooth" });
+            });
+            
+            othersLink.addEventListener("click", function (event) {
+                event.preventDefault();
+
+                var othersSection = document.getElementById("others");
+
+
+                othersSection.scrollIntoView({ behavior: "smooth" });
             });
         });
     </script>

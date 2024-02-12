@@ -24,7 +24,7 @@
         </div>
         <nav class="nav">
             <a href="HomePage.php" class="link">Home</a>
-            <a href="menu_QiaoqiaoZou.html" class="link">Menu</a>
+            <a href="menu.php" class="link">Menu</a>
             <a href="about_XiongNi.html" class="link">About Us</a>
             <a href="contactUs_JiaweiLi.html" class="link">Contact</a>
         </nav>

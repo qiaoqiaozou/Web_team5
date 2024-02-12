@@ -1,19 +1,10 @@
 
 <?php 
 $title = "menu";
-include_once 'menu_header.php';?>
+$css = "styles-QiaoqiaoZou.css";
+include_once 'header.php';?>
 
-<body>
-        <header class="part1">
-            <div class="head"><a href="index.php"><img src="images/2-e1694169123116.png" alt="logo"></a></div>
-            <nav class="nav">
-                <a href="index.php" class="link">Home</a>
-                <a href="menu.php" class="link">Menu</a>
-                <a href="feature2_read.php" class="link">About Us</a>
-                <a href="#" class="link">Contact</a>
-            </nav>
-            <button class="button"><a href="#" class="link">Buy Now</a></button>
-        </header>
+
         <div class="part2">
             <img src="images/12.jpg" class="image menu-img1" />
             <div class="part-menu-text">
@@ -33,16 +24,16 @@ include_once 'menu_header.php';?>
             <a href="#others" class="m4">Others</a>
         </div>
 
-    <div class="c-t">Coffee</div>
+    <p class="c-t" id = "coffee">Coffee</p>
     <?php include_once 'menu_coffee.php';?>
     
-    <div class="c-t">Dessert</div>
+    <p class="c-t" id = "dessert">Dessert</p>
     <?php include_once 'menu_dessert.php';?>
     
-    <div class="c-t">Bread</div>
+    <p class="c-t" id = "bread">Bread</p>
     <?php include_once 'menu_bread.php';?>
     
-    <div class="c-t">Others</div>
+    <p class="c-t" id = "others">Others</p>
     <?php include_once 'menu_others.php';?>
 
 

@@ -1,10 +1,8 @@
 <?php 
-$title = "menu data";
-$css = 'styles-QiaoqiaoZou.css';
-include'header.php'; 
-?>
-include "menu_header.php";
-?>
+$title = "menu";
+$css = "styles-QiaoqiaoZou.css";
+include_once 'header.php';?>
+
 <div class =container>
 <?php
 include 'menu_db.php';

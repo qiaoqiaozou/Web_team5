@@ -1,8 +1,7 @@
-<?php
-$title = "update the menu";
-$css = 'styles-QiaoqiaoZou.css';
-include'header.php'; 
-?>
+<?php 
+$title = "menu";
+$css = "styles-QiaoqiaoZou.css";
+include_once 'header.php';?>
 <?php
 include 'menu_db.php';
 $a = $_GET['id'];

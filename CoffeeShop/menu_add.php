@@ -1,10 +1,11 @@
-<?php
-$title = "add the menu";
-include 'menu_header.php'; 
-?>
+<?php 
+$title = "menu";
+$css = "styles-QiaoqiaoZou.css";
+include_once 'header.php';?>
+
 <div class = container>
 <h2>add a new menu:</h2>
-<form  name="form1" method="post" action="process_menu.php" enctype="multipart/form-data">
+<form  name="form1" method="post" action="menu_process.php" enctype="multipart/form-data">
     <div class="form-group">
         <div class="row">
             <!--<div class="col">
