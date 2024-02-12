@@ -14,6 +14,18 @@ CREATE TABLE `feature2_reservform` (
 '''
 
 
-# table 2: you name
+# table 2: Qiaoqiao Zou
+
+```sql
+
+CREATE TABLE `menu` (
+  `id` int NOT NULL,
+  `picture` varchar(100) NOT NULL,
+  `name_menu` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL,
+  `price` decimal(10,0) NOT NULL,
+  `type_name` varchar(50) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+```
 
 
