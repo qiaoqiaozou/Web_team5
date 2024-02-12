@@ -1,6 +1,6 @@
 # table 1: Xiong Ni
 
-'''sql
+```sql
 
 CREATE TABLE `feature2_reservform` (
   `id` int NOT NULL,
@@ -11,7 +11,7 @@ CREATE TABLE `feature2_reservform` (
   `specialReq` varchar(200) CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-'''
+```
 
 
 # table 2: Qiaoqiao Zou
