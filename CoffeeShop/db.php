@@ -2,11 +2,17 @@
 
 <?php
 
+$servername = "php_24-db-1";
+$username = "crudAPP";
+$password = "password";
+$dbname = "crudAPP";
+
+/*
 $servername = "php24-team-project-db-1";
 $username = "app1";
 $password = "password";
 $dbname = "app1";
-
+*/
 
 /*
 $servername = "localhost";
