@@ -38,13 +38,13 @@ This is a list and describtions about forms that have been created as part of ou
 * Form 1 (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
 * Form 2 (Created By Xiong Ni): reservation: Link to the related code file ([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/feature2_reservForm.php)) | Link to the form (shell.hamk.fi). | Validations Applied
 * Form 1 (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
-* Form 4 (Created By Zou Qiaoqiao): menu_add.php:([github]https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/menu_add.php) | Link to the form (shell.hamk.fi). | Validations Applied
+* Form 4 (Created By Zou Qiaoqiao): menu_add.php:([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/menu_add.php) )| Link to the form (shell.hamk.fi). | Validations Applied
 ## Created Tables
 This is the table list that we have created in the project work.
 * Table 1 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
 * Table 2 (Created By Xiong Ni): feature2_reservform | Link to the related code file ([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/feature2_read.php)) | Link to the table (shell.hamk.fi).
 * Table 3 (Created By): Table Name | Link to the related code file (github) | Link to the table (shell.hamk.fi).
-* Table 4 (Created By Zou Qiaoqiao): menu_data.php | ([github]https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/menu_data.php) | Link to the table (shell.hamk.fi).
+* Table 4 (Created By Zou Qiaoqiao): menu_data.php | ([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/menu_data.php)) | Link to the table (shell.hamk.fi).
 
 
 
