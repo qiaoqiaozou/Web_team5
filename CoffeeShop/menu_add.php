@@ -3,48 +3,37 @@ $title = "menu";
 $css = "styles-QiaoqiaoZou.css";
 include_once 'header.php';?>
 
-<div class = container>
-<h2>add a new menu:</h2>
-<form  name="form1" method="post" action="menu_process.php" enctype="multipart/form-data">
-    <div class="form-group">
-        <div class="row">
-            <!--<div class="col">
-                <label for="id">id:</label>
-                <input type="number" class="form-control" id="id" placeholder="id" name="id" required>
-            </div>-->
-            <div class="col">
-                <label for="picture">picture:</label>
-                <input type="file" class="form-control" id="picture"  placeholder="picture" accept=".jpg,.jpeg,.png" name="picture" required>
-            </div>
-            <div class="col">
-                <label for="name">name of menu:</label>
-                <input type="text" class="form-control" id="name_menu" placeholder="name_menu" name="name_menu" minlength="3" maxlength="30" required>
-                <span id = "name_menuError"></span>
-            </div>
-            <div class="col">
-                <label for="price">price:</label>
-                <input type="number"  step="0.01" class="form-control" id="price" placeholder="price" name="price" required>
-            </div>
-            <div class="col">
-                <label for="type_name">type_name:</label>
-                <select class="form-control" id="type_name" name="type_name">
-                    <option value="coffee">Coffee</option>
-                    <option value="dessert">Dessert</option>
-                    <option value="bread">Bread</option>
-                    <option value="others">Others</option>
-                </select>
-            </div>
-      </div>
-            <div class="col">
-                 <button type="submit" class="btn btn-primary" name="submit">Submit</button>
-           </div>
-       
-  </div>
-</form>
-
-</br>
-    <button type="button" class="btn btn-primary"><a href="menu_data.php"style="color: white;" >go to the menu list</a></button>
-
+<<div class = container><br><br><br>
+    <h2>Add A New Dish</h2><br><br>
+    <form  name="form1" method="post" action="menu_process.php" enctype="multipart/form-data">
+        <div class="col-md-4">
+            <label for="name" class="form-label">Name Of Dish</label>
+            <input type="text" class="form-control" id="name_menu" name = "name_menu" placeholder="name of the dish" required>
+        </div><br>
+        <div class="col-md-4">
+            <label for="price" class="form-label">Price</label>
+            <input type="number" step = "0.01" class="form-control" id="price" name = " price" placeholder="price" required>
+        </div><br>
+        <div class="col-md-4">
+            <label for="picture" class="form-label">Picture</label>
+            <input type="file" class="form-control" id="picture"  name = "picture" accept=".jpg,.jpeg,.png" required>
+        </div><br>
+        <div class="col-md-4">
+            <label for="group" class="form-label">Group</label>
+            <select class="form-select" id="type_name" name = "type_name" required>
+            <option selected="" disabled="" value="">Choose...</option>
+            <option>Coffee</option>
+            <option>Dessert</option>
+            <option>Bread</option>
+            <option>Others</option>
+            </select>
+        </div><br>
+        <div class="col">
+            <button type="submit" class="btn btn-primary" name="submit">Submit</button>
+        </div><br><br>
+        <button type="button" class="btn btn-primary"><a href="menu_data.php"style="color: white;" >Menu List</a></button>
+        </br><br><br>
+        </div>
 </div>
 <script>
 //function to validate name_menu
