@@ -32,7 +32,12 @@ $row= mysqli_fetch_array($result);
                 </div>
                 <div class="col">
                     <label for="type_name">type_name:</label>
-                    <input type="text" class="form-control" placeholder="type_name" name="type_name" required value="<?php echo $row['type_name']; ?>">
+                    <select class="form-control" id="type_name" name="type_name" value="<?php echo $row['type_name']; ?>">
+                        <option value="coffee">Coffee</option>
+                        <option value="dessert">Dessert</option>
+                        <option value="bread">Bread</option>
+                        <option value="others">Others</option>
+                    </select> 
                 </div>
                 <div class="row mb-3">
                     <div class="col"><button type="submit" class="btn btn-warning" name="update">Update This Dish</button></div>
@@ -56,19 +61,20 @@ and the code inside the if block will be executed. If the form has not been subm
 the value of $_POST['submit'] will not be set, and the code inside the if block will not be executed.
 */
 if (isset($_POST['update'])){
-         
+
     $name_menu = $_POST['name_menu']; 
     $price = $_POST['price']; 
     $type_name = $_POST['type_name'];
-
-    //if($_FILES["picture"]["error"] === 4){
-        //echo
-        //"<script> alert('Picture Does Not Exist');</script>";
-        //}else{
+    
+    if($_FILES["picture"]["error"] === 4){
+        echo
+        "<script> alert('Picture Does Not Exist');</script>";
+        }
+        else{
             $fileName = $_FILES["picture"]["name"];
             $fileSize = $_FILES["picture"]["size"];
             $tmpName = $_FILES["picture"]["tmp_name"];
-
+    
             $validPictureExtension = ['jpg','jpeg','png'];
             $pictureExtension = explode('.',$fileName);
             $pictureExtension = strtolower(end($pictureExtension));
@@ -79,17 +85,19 @@ if (isset($_POST['update'])){
             } else{
                 $newPictureName = uniqid();
                 $newPictureNameFinal = $newPictureName ."." . $pictureExtension;
-
+    
                 move_uploaded_file($tmpName, 'file/'.$newPictureNameFinal);
-   
-    $query = mysqli_query($conn, "UPDATE menu set picture ='$newPictureNameFinal',name_menu='$name_menu',price='$price',type_name = '$type_name' where id='$a'");
+            }  
+        }
+         
+    $query = mysqli_query($conn,"UPDATE menu set picture ='$newPictureNameFinal', name_menu='$name_menu', price='$price', type_name='$type_name' where id='$a'");
     if($query){
         echo "<h2>Your information is updated Successfully</h2>";
         // if you want to redirect to update page after updating
     }
     else { echo "Record Not modified";}
     }
-}
+
 
 
     if (isset($_POST['delete'])){
