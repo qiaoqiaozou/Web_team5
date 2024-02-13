@@ -84,33 +84,37 @@
             </div>
 
 
+
+<form name="contactUs" method="post" action="processCon.php">
             <div class="col-sm-6">
                 <p style="text-align: center;font-size: 28px; font-weight: bold;">Send Message</p><br>
                 <div class="row">
                     <div class="col-md-6">
-                        <input type="text" class="form-control" placeholder="First name here" aria-label="First name">
-                    </div>
-                    <div class="col-md-6">
-                        <input type="text" class="form-control" placeholder="Last name here" aria-label="Last name"><br>
+                        <input type="text" class="form-control" placeholder="First name here" aria-label="First name" id="first_name" name="first_name">
                     </div>
 
                     <div class="col-md-6">
-                        <input type="text" class="form-control" placeholder="Add email" aria-label="First name">
+                        <input type="text" class="form-control" placeholder="Last name here" aria-label="Last name" id="last_name" name="last_name"><br>
+                    </div>
+
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Add email" aria-label="First name" id="email" name="email">
                     </div>
                     <div class="col-md-6">
                         <input type="text" class="form-control" placeholder="How can we help you?"
-                            aria-label="Last name"><br>
+                            aria-label="Last name" id="howtohelp" name="howtohelp"><br>
                     </div>
 
                     <div>
-                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                            style="height: 180px"></textarea><br>
+                        <textarea class="form-control" placeholder="Leave a comment here" id="comment" name="comment" style="height: 180px"></textarea><br>
                     </div>
                     <div>
-                        <button class="buttonSM" type="submit">Send Message</button>
+                        <button class="buttonSM" type="submit" name="submit">Send Message</button>
                     </div>
                 </div>
             </div>
+</form>
+
         </div>
     </div>
 
