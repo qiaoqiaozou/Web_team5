@@ -31,11 +31,11 @@ $row= mysqli_fetch_array($result);
                 <div class="col-md-4">
                     <label for="type_name">Group</label>
                     <select class="form-select" id="type_name" name="type_name">
-                        <option selected="" disabled=""><?php echo $row['type_name']; ?></option>
-                        <option value="coffee">Coffee</option>
-                        <option value="dessert">Dessert</option>
-                        <option value="bread">Bread</option>
-                        <option value="others">Others</option>
+                    <option value=""><?php echo $row['type_name']; ?></option>
+                        <option value="coffee"<?php if ($row['type_name'] == 'coffee') echo 'selected'; ?>>Coffee</option>
+                        <option value="dessert"<?php if ($row['type_name'] == 'dessert') echo 'selected'; ?>>Dessert</option>
+                        <option value="bread"<?php if ($row['type_name'] == 'bread') echo 'selected'; ?>>Bread</option>
+                        <option value="others"<?php if ($row['type_name'] == 'others') echo 'selected'; ?>>Others</option>
                     </select> 
                 </div><br>
                 <div class="row mb-3">
@@ -63,8 +63,7 @@ if (isset($_POST['update'])){
     $type_name = $_POST['type_name'];
     
     if($_FILES["picture"]["error"] === 4){
-        echo
-        "<script> alert('Picture Does Not Exist');</script>";
+            $query = mysqli_query($conn,"UPDATE menu set name_menu='$name_menu', price='$price', type_name='$type_name' where id='$a'");
         }
         else{
             $fileName = $_FILES["picture"]["name"];
@@ -83,10 +82,11 @@ if (isset($_POST['update'])){
                 $newPictureNameFinal = $newPictureName ."." . $pictureExtension;
     
                 move_uploaded_file($tmpName, 'file/'.$newPictureNameFinal);
+                $query = mysqli_query($conn,"UPDATE menu set picture ='$newPictureNameFinal', name_menu='$name_menu', price='$price', type_name='$type_name' where id='$a'");
             }  
         }
          
-    $query = mysqli_query($conn,"UPDATE menu set picture ='$newPictureNameFinal', name_menu='$name_menu', price='$price', type_name='$type_name' where id='$a'");
+
     if($query){
         echo "<h2>Your information is updated Successfully</h2>";
         // if you want to redirect to update page after updating
