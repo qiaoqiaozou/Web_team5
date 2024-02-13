@@ -16,7 +16,6 @@
 
 
 <body>
-<header class="part1">
     <header class="part1">
         <div class="head">
             <a href="index.php"><img src="images/2-e1694169123116.png" /></a>
