@@ -7,9 +7,14 @@ $username = "crudAPP";
 $password = "password";
 $dbname = "crudAPP";
 
+/*
+$servername = "php24-team-project-db-1";
+$username = "app1";
+$password = "password";
+$dbname = "app1";
+*/
 
 /*
-//最后上传shell所需个人数据库
 $servername = "localhost";
 $username = "pengpeng23000";
 $password = "rTaPFrQ6";
