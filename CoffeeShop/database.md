@@ -28,4 +28,19 @@ CREATE TABLE `menu` (
 
 ```
 
+# table 3: Yangpengpeng 
+
+# register
+
+```sql
+
+CREATE TABLE `register_info` (
+  `id` int NOT NULL,
+  `fullname` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `password` varchar(50) NOT NULL,
+  `phone` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
 

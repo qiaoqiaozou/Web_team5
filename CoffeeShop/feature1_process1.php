@@ -8,6 +8,7 @@ function test_input($data) {
 }
 session_start();
 if(isset($_SESSION['user_id'])) {
+    ob_clean();
     header("Location: HomePage.php");
     exit();
 }
