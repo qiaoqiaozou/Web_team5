@@ -31,11 +31,11 @@ $row= mysqli_fetch_array($result);
                 <div class="col-md-4">
                     <label for="type_name">Group</label>
                     <select class="form-select" id="type_name" name="type_name">
-                    <option value=""><?php echo $row['type_name']; ?></option>
-                        <option value="coffee"<?php if ($row['type_name'] == 'coffee') echo 'selected'; ?>>Coffee</option>
-                        <option value="dessert"<?php if ($row['type_name'] == 'dessert') echo 'selected'; ?>>Dessert</option>
-                        <option value="bread"<?php if ($row['type_name'] == 'bread') echo 'selected'; ?>>Bread</option>
-                        <option value="others"<?php if ($row['type_name'] == 'others') echo 'selected'; ?>>Others</option>
+                        <option value="<?php echo $row['type_name']; ?>" selected><?php echo $row['type_name']; ?></option>
+                        <option value="coffee">Coffee</option>
+                        <option value="dessert">Dessert</option>
+                        <option value="bread">Bread</option>
+                        <option value="others">Others</option>
                     </select> 
                 </div><br>
                 <div class="row mb-3">
