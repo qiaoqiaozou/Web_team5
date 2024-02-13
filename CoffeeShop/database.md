@@ -14,7 +14,7 @@ CREATE TABLE `feature2_reservform` (
 ```
 
 
-# table 2: Qiaoqiao Zou
+# table 4: Qiaoqiao Zou
 
 ```sql
 
