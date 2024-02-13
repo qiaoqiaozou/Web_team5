@@ -30,7 +30,7 @@ include_once 'header.php';?>
         </div><br>
         <div class="col">
             <button type="submit" class="btn btn-primary" name="submit">Submit</button>
-        </div><br><br>
+        </div><br>
         <button type="button" class="btn btn-primary"><a href="menu_data.php"style="color: white;" >Menu List</a></button>
         </br><br><br>
         </div>
