@@ -25,7 +25,7 @@ if ($result->num_rows > 0) {
                     <th>Menu Name</th>
                     <th>Price</th>
                     <th>Type</th>
-                    <th>update</th>
+                    <th>Action</th>
                 </tr>
             </thead>
             <tbody>";
