@@ -31,8 +31,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if($result->num_rows > 0) {
         $row = $result->fetch_assoc();
-
-        if(password_verify($password, $row['password'])) {
+        // if I use hashcode to save the password
+        /*if(password_verify($password, $row['password'])) {
+            $_SESSION['user_id'] = $row['id'];
+            header("Location: index.php");
+            exit();
+            */
+        // I just use password so 
+        if($password === $row['password']) {
             $_SESSION['user_id'] = $row['id'];
             header("Location: index.php");
             exit();
@@ -51,5 +57,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <?php if (!empty($error)) : ?>
     <div><?php echo $error; ?></div>
 <?php endif; ?>
+
+<?php if (isset($_SESSION['user_id'])) : ?>
+    <div>You have logged in successfully.</div>
+<?php endif; ?>
+
 
 <?php include 'footer.php'; ?>
