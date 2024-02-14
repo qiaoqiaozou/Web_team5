@@ -1,4 +1,4 @@
-# table 1: Xiong Ni
+# table 2: Xiong Ni
 
 ```sql
 
