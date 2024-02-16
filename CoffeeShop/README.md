@@ -19,7 +19,7 @@ Our team members have their own features, as detailed below:
 - [ ] Feature 3 (Jiawei Li): Customer Feedback: collecting information from customers.
 - [√] Feature 4 (Zou Qiaoqiao): Administrator management menu.
 ### Feature 1
-Include more detailed information about Feature 1 here. Provide links to related code files (github) & link to the feature (shell.hamk.fi) 
+Collect fullname, emailaddress, password and phone number, varify password and confirmed password same or not, and finish registration, also, I still have a problem with login, I cannot figure it out. Provide links to related code files ([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/feature1_registerPage.php &https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/feature1_loginPage.php )) & link to the feature (http://shell.hamk.fi/~pengpeng23000/CoffeeShop/feature1_loginPage.php & http://shell.hamk.fi/~pengpeng23000/CoffeeShop/feature1_registerPage.php ) 
 ### Feature 2
 Collecting name, email, number of people, date, special requests. Provide links to related code files ([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/feature2_reservForm.php)) & link to the feature ([shell.hamk.fi](http://shell.hamk.fi/~ni23000/shellcoffee/feature2_reservForm.php)) 
 ### Feature 3
