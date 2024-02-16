@@ -118,7 +118,7 @@ include 'header.php'; ?>
 
     function submitForm(submitButton){
         if(validateEmail()){
-            submitButton.form.action = "../processCon.php";
+            submitButton.form.action = "processCon.php";
         }
         else{
             alert("Wrong address, please input again.")
