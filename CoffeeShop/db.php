@@ -16,12 +16,12 @@ $password = "password";
 $dbname = "app1";
 */
 
-/*
+
 $servername = "localhost";
 $username = "pengpeng23000";
 $password = "rTaPFrQ6";
 $dbname = "wp_pengpeng23000";
-*/
+
 
 
 $servername = "web-dev-env-main-db-1";
