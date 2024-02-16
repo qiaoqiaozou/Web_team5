@@ -39,13 +39,13 @@ This is a list and describtions about forms that have been created as part of ou
 * Form 2 (Created By Xiong Ni): reservation: Link to the related code file ([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/feature2_reservForm.php)) | Link to the form ([shell.hamk.fi](http://shell.hamk.fi/~ni23000/shellcoffee/feature2_reservForm.php)). | Validations Applied
 * Form 3 (Created By JiaweiLi): contactUs: Link to the related code file (https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/contactUs.php) | Link to the form (shell.hamk.fi). | Validations Applied
 * Form 1 (Created By): Form Name: Link to the related code file (github) | Link to the form (shell.hamk.fi). | Validations Applied
-* Form 4 (Created By Zou Qiaoqiao): menu_add.php:([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/menu_update.php) )| Link to the form ([github](http://shell.hamk.fi/~qiaoqiao23000/CoffeeShop/menu_update.php?id=4))| Validations Applied
+* Form 4 (Created By Zou Qiaoqiao): menu_add.php:([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/menu_update.php) )| Link to the form ([shell.hamk.fi](http://shell.hamk.fi/~qiaoqiao23000/CoffeeShop/menu_update.php?id=4))| Validations Applied
 ## Created Tables
 This is the table list that we have created in the project work.
 * Table 1 (Created By YangPengpeng): register_info | Link to the related code file ([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/feature1_process2.php)) | Link to the table ([shell.hamk.fi](http://shell.hamk.fi/~pengpeng23000/CoffeeShop/feature1_registerPage.php)).
 * Table 2 (Created By Xiong Ni): feature2_reservform | Link to the related code file ([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/feature2_read.php)) | Link to the table ([shell.hamk.fi](http://shell.hamk.fi/~ni23000/shellcoffee/feature2_read.php)).
 * Table 3 (Created By JiaweiLi): contactUs | Link to the related code file ([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/processCon.php)) | Link to the table (shell.hamk.fi).
-* Table 4 (Created By Zou Qiaoqiao): menu_data.php | ([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/menu_data.php)) | Link to the table ([github](http://shell.hamk.fi/~qiaoqiao23000/CoffeeShop/menu_data.php)).
+* Table 4 (Created By Zou Qiaoqiao): menu_data.php | ([github](https://github.com/qiaoqiaozou/Web_team5/blob/main/CoffeeShop/menu_data.php)) | Link to the table ([shell.hamk.fi](http://shell.hamk.fi/~qiaoqiao23000/CoffeeShop/menu_data.php)).
 
 
 
